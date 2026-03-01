@@ -1,0 +1,265 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Business website for AKS Digital Media Solutions — a digital marketing agency based in Thoothukudi, Tamil Nadu, India. Blue and gold professional color theme: dark navy (#0B1C2D) background, gold (#F4B400) highlights, white text. Sharpened hero section with heading 'Grow Your Business Online', subheading 'Digital Marketing Agency in Thoothukudi', tagline 'Turning Clicks Into Clients'. Why Choose Us section with black gradient background, 4 boxes: Result-Oriented Strategies, Affordable Packages, Local Market Expertise (Thoothukudi Focus), Personalized Support. Includes About Us, Services (6 cards), Contact with WhatsApp button, client testimonials, footer with social icons, modern animations, and mobile responsive design.",
+  "architectural_notes": [
+    "AKS logo: bold stylish font with digital/tech touch, displayed in header and footer",
+    "WhatsApp contact button links to WhatsApp with pre-filled message for lead generation",
+    "Color palette: dark navy #0B1C2D (background), gold #F4B400 (highlights/buttons), white #FFFFFF (text), button text #0B1C2D on gold buttons",
+    "Hero section: short/sharp copy — heading 'Grow Your Business Online', subheading 'Digital Marketing Agency in Thoothukudi', tagline 'Turning Clicks Into Clients'",
+    "Why Choose Us section: black gradient background, white heading, gold highlights, 4 feature boxes: Result-Oriented Strategies, Affordable Packages, Local Market Expertise (Thoothukudi Focus), Personalized Support"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Dark cosmic starfield hero background with deep navy blue atmosphere, gold glowing particle bokeh effects scattered across the scene, subtle digital network lines, premium and modern feel matching an elite digital marketing agency brand (aks-hero-bg-dark.dim_1920x1080.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-sticky-header-with-the-product-name-fresher-placement-success-kit-on-the-left-and-a-download-now-49-cta-button-on-the-right-the-header-should-use-a-white-background-with-a-subtle-bottom-shadow-remain-fixed-at-the-top-on-scroll-and-be-fully-responsive-collapse-gracefully-on-mobile",
+      "title": "Create a sticky header with the product name 'Fresher Placement Success Kit' on the left and a 'Download Now – ₹49' CTA button on the right. The header should use a white background with a subtle bottom shadow, remain fixed at the top on scroll, and be fully responsive (collapse gracefully on mobile).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-full-width-hero-section-with-1-a-bold-heading-struggling-to-get-placed-get-complete-fresher-placement-success-kit-at-just-49-2-a-subtext-line-listing-resume-templates-interview-questions-hr-email-format-linkedin-guide-3-a-prominent-blue-download-now-49-cta-button-and-4-a-small-trust-line-below-the-button-reading-instant-download-affordable-student-friendly-the-hero-should-use-the-generated-hero-banner-image-as-a-background-or-accent",
+      "title": "Build a full-width hero section with: (1) a bold heading 'Struggling to Get Placed? Get Complete Fresher Placement Success Kit at Just ₹49', (2) a subtext line listing 'Resume Templates + Interview Questions + HR Email Format + LinkedIn Guide', (3) a prominent blue 'Download Now – ₹49' CTA button, and (4) a small trust line below the button reading 'Instant Download | Affordable | Student Friendly'. The hero should use the generated hero banner image as a background or accent.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-what-you-will-get-section-with-a-3-column-desktop-2-column-tablet-1-column-mobile-card-grid-each-card-has-a-checkmark-icon-a-title-and-a-short-description-for-the-following-6-items-1-ats-friendly-resume-templates-2-20-hr-interview-questions-3-job-application-email-format-4-linkedin-optimization-guide-5-internship-finding-websites-6-interview-confidence-tips-cards-should-have-a-white-background-soft-box-shadow-rounded-corners-and-a-blue-accent-color-for-icons",
+      "title": "Create a 'What You Will Get' section with a 3-column (desktop) / 2-column (tablet) / 1-column (mobile) card grid. Each card has a checkmark icon, a title, and a short description for the following 6 items: (1) ATS Friendly Resume Templates, (2) 20 HR Interview Questions, (3) Job Application Email Format, (4) LinkedIn Optimization Guide, (5) Internship Finding Websites, (6) Interview Confidence Tips. Cards should have a white background, soft box shadow, rounded corners, and a blue accent color for icons.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-why-this-kit-benefits-section-listing-the-5-benefit-points-1-saves-time-in-preparation-2-avoid-common-resume-mistakes-3-improves-interview-confidence-4-budget-friendly-for-students-5-created-by-a-digital-marketing-intern-display-these-as-a-clean-two-column-list-with-blue-tick-icons-on-a-light-blue-grey-background-band-to-visually-separate-it-from-adjacent-sections",
+      "title": "Add a 'Why This Kit?' benefits section listing the 5 benefit points: (1) Saves time in preparation, (2) Avoid common resume mistakes, (3) Improves interview confidence, (4) Budget friendly for students, (5) Created by a Digital Marketing Intern. Display these as a clean two-column list with blue tick icons on a light blue/grey background band to visually separate it from adjacent sections.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-product-preview-section-that-shows-1-the-generated-resume-preview-mockup-image-2-the-generated-pdf-preview-mockup-image-and-3-a-what-s-inside-bullet-list-repeating-the-6-kit-items-the-images-and-bullet-list-should-be-displayed-side-by-side-on-desktop-and-stacked-on-mobile",
+      "title": "Build a 'Product Preview' section that shows: (1) the generated resume preview mockup image, (2) the generated PDF preview mockup image, and (3) a 'What's Inside' bullet list repeating the 6 kit items. The images and bullet list should be displayed side-by-side on desktop and stacked on mobile.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-pricing-section-with-a-centered-card-showing-1-launch-offer-badge-2-full-combo-label-3-original-price-99-with-a-strikethrough-style-4-current-price-49-in-large-bold-blue-text-and-5-a-prominent-buy-now-49-button-styled-for-high-conversion-add-a-note-that-payment-integration-is-ready-button-is-wired-but-payment-gateway-is-not-active-in-this-build",
+      "title": "Create a pricing section with a centered card showing: (1) 'Launch Offer' badge, (2) 'Full Combo' label, (3) original price '₹99' with a strikethrough style, (4) current price '₹49' in large bold blue text, and (5) a prominent 'Buy Now – ₹49' button styled for high conversion. Add a note that payment integration is ready (button is wired but payment gateway is not active in this build).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-about-the-creator-section-featuring-1-the-generated-creator-avatar-portrait-image-2-the-name-atchaya-devi-3-the-title-digital-marketing-intern-and-4-the-bio-text-passionate-about-helping-freshers-prepare-smartly-and-get-placed-faster-through-simple-structured-guidance-layout-should-be-a-centered-card-or-two-column-layout-with-image-on-the-left-and-text-on-the-right-stacked-on-mobile",
+      "title": "Add an 'About the Creator' section featuring: (1) the generated creator avatar/portrait image, (2) the name 'Atchaya Devi', (3) the title 'Digital Marketing Intern', and (4) the bio text 'Passionate about helping freshers prepare smartly and get placed faster through simple structured guidance.' Layout should be a centered card or two-column layout with image on the left and text on the right (stacked on mobile).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-faq-section-with-an-accordion-expandable-layout-for-the-following-3-questions-and-answers-1-q-is-this-suitable-for-freshers-a-yes-specially-designed-for-freshers-2-q-is-it-instant-download-a-yes-immediately-after-payment-3-q-is-this-refundable-a-no-refund-once-downloaded-each-faq-item-should-expand-collapse-on-click-with-a-smooth-animation",
+      "title": "Build a FAQ section with an accordion/expandable layout for the following 3 questions and answers: (1) Q: 'Is this suitable for freshers?' A: 'Yes, specially designed for freshers.' (2) Q: 'Is it instant download?' A: 'Yes, immediately after payment.' (3) Q: 'Is this refundable?' A: 'No refund once downloaded.' Each FAQ item should expand/collapse on click with a smooth animation.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-final-cta-section-at-the-bottom-of-the-page-with-the-heading-your-placement-journey-starts-here-and-a-large-download-now-49-button-this-section-should-use-a-blue-background-with-white-text-for-high-visual-impact",
+      "title": "Add a final CTA section at the bottom of the page with the heading 'Your Placement Journey Starts Here' and a large 'Download Now – ₹49' button. This section should use a blue background with white text for high visual impact.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-smooth-scroll-behavior-so-that-any-anchor-navigation-links-scroll-smoothly-to-their-target-section-ensure-all-sections-have-proper-ids-for-anchor-navigation",
+      "title": "Implement smooth scroll behavior so that any anchor/navigation links scroll smoothly to their target section. Ensure all sections have proper IDs for anchor navigation.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-static-images-hero-banner-resume-mockup-pdf-mockup-creator-avatar-from-the-frontend-public-assets-generated-directory-and-reference-them-in-the-appropriate-sections",
+      "title": "Render the generated static images (hero banner, resume mockup, PDF mockup, creator avatar) from the frontend/public/assets/generated directory and reference them in the appropriate sections.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-entire-existing-frontend-with-a-brand-new-business-website-for-aks-digital-media-solutions-apply-a-professional-blue-and-gold-color-theme-throughout-primary-blue-1a3c6e-or-similar-deep-blue-gold-amber-accent-d4a017-or-similar-white-backgrounds-for-content-sections-and-dark-navy-for-the-footer-typography-should-use-a-modern-sans-serif-e-g-inter-or-poppins-update-index-html-page-title-to-aks-digital-media-solutions-ensure-the-tailwind-config-exposes-blue-and-gold-semantic-tokens-consistent-with-this-palette",
+      "title": "Replace the entire existing frontend with a brand-new business website for AKS Digital Media Solutions. Apply a professional blue and gold color theme throughout: primary blue (#1A3C6E or similar deep blue), gold/amber accent (#D4A017 or similar), white backgrounds for content sections, and dark navy for the footer. Typography should use a modern sans-serif (e.g., Inter or Poppins). Update index.html page title to 'AKS Digital Media Solutions'. Ensure the Tailwind config exposes blue and gold semantic tokens consistent with this palette.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-sticky-navigation-header-that-displays-the-aks-digital-media-solutions-logo-rendered-from-the-generated-logo-image-asset-on-the-left-and-desktop-nav-links-home-about-services-why-us-testimonials-contact-on-the-right-include-a-get-free-consultation-cta-button-in-the-header-styled-in-gold-the-header-must-have-a-white-background-with-a-subtle-bottom-shadow-remain-fixed-at-the-top-on-scroll-and-collapse-into-a-hamburger-menu-on-mobile",
+      "title": "Build a sticky navigation header that displays the AKS Digital Media Solutions logo (rendered from the generated logo image asset) on the left and desktop nav links (Home, About, Services, Why Us, Testimonials, Contact) on the right. Include a 'Get Free Consultation' CTA button in the header styled in gold. The header must have a white background with a subtle bottom shadow, remain fixed at the top on scroll, and collapse into a hamburger menu on mobile.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-full-width-hero-section-with-1-a-bold-headline-grow-your-business-online-with-aks-digital-media-solutions-2-a-subheadline-we-turn-clicks-into-clients-3-two-cta-buttons-side-by-side-get-free-consultation-gold-primary-and-contact-us-outlined-secondary-and-4-the-generated-hero-background-image-used-as-a-full-bleed-background-with-a-dark-overlay-to-ensure-text-readability-the-section-must-be-at-minimum-100vh-and-fully-responsive",
+      "title": "Create a full-width hero section with: (1) a bold headline 'Grow Your Business Online With AKS Digital Media Solutions', (2) a subheadline 'We Turn Clicks Into Clients', (3) two CTA buttons side by side — 'Get Free Consultation' (gold/primary) and 'Contact Us' (outlined/secondary), and (4) the generated hero background image used as a full-bleed background with a dark overlay to ensure text readability. The section must be at minimum 100vh and fully responsive.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-about-us-section-id-about-with-the-title-about-aks-digital-media-solutions-and-the-body-text-aks-digital-media-solutions-is-a-thoothukudi-based-digital-marketing-agency-helping-businesses-grow-online-we-specialize-in-seo-social-media-marketing-lead-generation-and-branding-our-mission-is-to-help-local-and-national-brands-increase-visibility-generate-quality-leads-and-drive-real-business-growth-layout-should-be-a-two-column-design-on-desktop-text-left-decorative-image-right-using-the-about-section-image-asset-and-stacked-on-mobile-include-subtle-fade-in-animation-on-scroll",
+      "title": "Build an 'About Us' section (id='about') with the title 'About AKS Digital Media Solutions' and the body text: 'AKS Digital Media Solutions is a Thoothukudi-based digital marketing agency helping businesses grow online. We specialize in SEO, Social Media Marketing, Lead Generation, and Branding. Our mission is to help local and national brands increase visibility, generate quality leads, and drive real business growth.' Layout should be a two-column design on desktop (text left, decorative/image right using the about section image asset) and stacked on mobile. Include subtle fade-in animation on scroll.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-id-services-displaying-6-service-cards-in-a-3-column-desktop-2-column-tablet-1-column-mobile-grid-each-card-shows-a-relevant-icon-a-title-and-a-short-description-for-1-seo-optimization-2-social-media-marketing-3-google-meta-ads-4-lead-generation-5-website-design-6-branding-strategy-cards-should-have-a-white-background-gold-accented-icon-soft-box-shadow-rounded-corners-and-a-subtle-hover-lift-animation",
+      "title": "Create a 'Services' section (id='services') displaying 6 service cards in a 3-column (desktop) / 2-column (tablet) / 1-column (mobile) grid. Each card shows a relevant icon, a title, and a short description for: (1) SEO Optimization, (2) Social Media Marketing, (3) Google & Meta Ads, (4) Lead Generation, (5) Website Design, (6) Branding Strategy. Cards should have a white background, gold-accented icon, soft box shadow, rounded corners, and a subtle hover lift animation.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-why-choose-us-section-id-why-us-on-a-light-blue-grey-background-band-displaying-4-benefit-points-in-a-2-column-grid-with-blue-tick-icons-1-result-oriented-strategies-2-affordable-packages-3-personalized-marketing-support-4-fast-response-client-focused-each-point-should-show-a-bold-title-and-a-short-supporting-description-include-a-slide-in-animation-on-scroll",
+      "title": "Add a 'Why Choose Us' section (id='why-us') on a light blue/grey background band displaying 4 benefit points in a 2-column grid with blue tick icons: (1) Result-Oriented Strategies, (2) Affordable Packages, (3) Personalized Marketing Support, (4) Fast Response & Client Focused. Each point should show a bold title and a short supporting description. Include a slide-in animation on scroll.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-client-testimonials-section-id-testimonials-with-at-least-3-placeholder-testimonial-cards-in-a-horizontal-card-layout-scrollable-or-grid-each-card-shows-a-client-avatar-placeholder-client-name-role-business-star-rating-5-stars-and-testimonial-quote-text-cards-should-have-white-background-gold-star-icons-rounded-corners-and-soft-shadow-include-a-subtle-fade-in-animation",
+      "title": "Build a 'Client Testimonials' section (id='testimonials') with at least 3 placeholder testimonial cards in a horizontal card layout (scrollable or grid). Each card shows a client avatar placeholder, client name, role/business, star rating (5 stars), and testimonial quote text. Cards should have white background, gold star icons, rounded corners, and soft shadow. Include a subtle fade-in animation.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-id-contact-that-includes-1-location-display-thoothukudi-tamil-nadu-india-2-email-atchayapandian52-gmail-com-as-a-clickable-mailto-link-3-a-whatsapp-contact-button-linking-to-https-wa-me-whatsapp-chat-number-to-be-configured-4-a-bold-cta-headline-let-s-grow-your-business-today-include-a-simple-contact-form-with-name-email-message-fields-and-a-submit-button-layout-should-be-two-column-on-desktop-form-left-contact-details-right-and-stacked-on-mobile",
+      "title": "Create a 'Contact' section (id='contact') that includes: (1) location display 'Thoothukudi, Tamil Nadu, India', (2) email 'atchayapandian52@gmail.com' as a clickable mailto link, (3) a WhatsApp contact button linking to 'https://wa.me/' (WhatsApp chat, number to be configured), (4) a bold CTA headline 'Let’s Grow Your Business Today 🚀'. Include a simple contact form with Name, Email, Message fields and a Submit button. Layout should be two-column on desktop (form left, contact details right) and stacked on mobile.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-clean-footer-replacing-the-existing-one-with-1-the-aks-digital-media-solutions-logo-and-tagline-we-turn-clicks-into-clients-2-quick-navigation-links-home-about-services-why-us-testimonials-contact-with-smooth-scroll-3-social-media-icons-for-facebook-instagram-linkedin-and-twitter-linking-to-placeholders-4-contact-info-email-and-location-and-5-a-copyright-bar-reading-2024-aks-digital-media-solutions-all-rights-reserved-use-a-dark-navy-background-with-white-gold-text",
+      "title": "Build a clean footer (replacing the existing one) with: (1) the AKS Digital Media Solutions logo and tagline 'We Turn Clicks Into Clients', (2) quick navigation links (Home, About, Services, Why Us, Testimonials, Contact) with smooth scroll, (3) social media icons for Facebook, Instagram, LinkedIn, and Twitter linking to '#' placeholders, (4) contact info (email and location), and (5) a copyright bar reading '© 2024 AKS Digital Media Solutions. All rights reserved.' Use a dark navy background with white/gold text.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-smooth-scroll-behavior-globally-and-assign-proper-id-attributes-to-all-sections-id-home-hero-id-about-id-services-id-why-us-id-testimonials-id-contact-add-subtle-scroll-triggered-fade-in-slide-up-animations-using-css-transitions-or-a-lightweight-intersection-observer-approach-to-all-major-section-content-blocks-for-a-modern-premium-feel",
+      "title": "Implement smooth scroll behavior globally and assign proper id attributes to all sections: id='home' (hero), id='about', id='services', id='why-us', id='testimonials', id='contact'. Add subtle scroll-triggered fade-in / slide-up animations (using CSS transitions or a lightweight Intersection Observer approach) to all major section content blocks for a modern, premium feel.",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-static-image-assets-aks-logo-hero-background-about-section-image-from-the-frontend-public-assets-generated-directory-and-reference-them-in-the-appropriate-sections-header-logo-hero-background-about-section",
+      "title": "Render all generated static image assets (AKS logo, hero background, about section image) from the frontend/public/assets/generated directory and reference them in the appropriate sections (header logo, hero background, about section).",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-herosection-component-with-the-following-exact-content-and-styles-heading-grow-your-business-online-large-bold-white-ffffff-subheading-digital-marketing-agency-in-thoothukudi-medium-weight-gold-f4b400-tagline-turning-clicks-into-clients-italic-or-lighter-weight-white-ffffff-remove-the-previous-long-headline-section-background-must-be-solid-dark-navy-0b1c2d-with-a-subtle-dark-gradient-overlay-cta-buttons-primary-get-free-consultation-with-background-f4b400-and-text-color-0b1c2d-secondary-contact-us-outlined-with-gold-border-f4b400-and-white-text-remove-the-stats-row-or-keep-it-minimal-the-section-must-remain-full-screen-min-100vh-and-fully-responsive",
+      "title": "Redesign the HeroSection component with the following exact content and styles: heading 'Grow Your Business Online' (large, bold, white #FFFFFF), subheading 'Digital Marketing Agency in Thoothukudi' (medium weight, gold #F4B400), tagline 'Turning Clicks Into Clients' (italic or lighter weight, white #FFFFFF). Remove the previous long headline. Section background must be solid dark navy #0B1C2D with a subtle dark gradient overlay. CTA buttons: primary 'Get Free Consultation' with background #F4B400 and text color #0B1C2D; secondary 'Contact Us' outlined with gold border #F4B400 and white text. Remove the stats row or keep it minimal. The section must remain full-screen (min 100vh) and fully responsive.",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redesign-the-whychooseussection-component-with-the-following-specifications-section-heading-reads-why-choose-aks-digital-media-solutions-in-white-ffffff-section-background-uses-a-black-gradient-e-g-linear-gradient-from-000000-to-0b1c2d-or-similar-dark-black-gradient-display-exactly-4-benefit-boxes-in-a-2-column-desktop-1-column-mobile-grid-with-the-following-labels-1-result-oriented-strategies-2-affordable-packages-3-local-market-expertise-thoothukudi-focus-4-personalized-support-each-box-should-show-a-gold-checkmark-icon-a-bold-white-title-and-a-short-supporting-description-box-styling-dark-semi-transparent-background-card-gold-f4b400-accent-on-icon-border-highlight-rounded-corners-subtle-box-shadow-remove-the-existing-bottom-cta-strip-or-restyle-it-to-match-the-new-dark-theme",
+      "title": "Redesign the WhyChooseUsSection component with the following specifications: Section heading reads 'Why Choose AKS Digital Media Solutions?' in white (#FFFFFF). Section background uses a black gradient (e.g., linear-gradient from #000000 to #0B1C2D or similar dark black gradient). Display exactly 4 benefit boxes in a 2-column (desktop) / 1-column (mobile) grid with the following labels: (1) Result-Oriented Strategies, (2) Affordable Packages, (3) Local Market Expertise (Thoothukudi Focus), (4) Personalized Support. Each box should show a gold checkmark icon (✔), a bold white title, and a short supporting description. Box styling: dark semi-transparent background card, gold (#F4B400) accent on icon/border highlight, rounded corners, subtle box shadow. Remove the existing bottom CTA strip or restyle it to match the new dark theme.",
+      "reqIds": [
+        "REQ-24"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-a-new-hero-background-image-for-the-aks-digital-media-solutions-website-that-matches-the-dark-navy-and-gold-brand-identity-visible-on-the-uploaded-business-card-the-image-should-depict-a-dark-starfield-cosmic-digital-atmosphere-with-deep-navy-blue-0b1c2d-background-gold-particle-bokeh-effects-and-subtle-digital-marketing-visual-elements-this-image-should-be-used-as-the-hero-section-background",
+      "title": "Generate a new hero background image for the AKS Digital Media Solutions website that matches the dark navy and gold brand identity visible on the uploaded business card. The image should depict a dark starfield/cosmic digital atmosphere with deep navy blue (#0B1C2D) background, gold particle bokeh effects, and subtle digital marketing visual elements. This image should be used as the hero section background.",
+      "reqIds": [
+        "REQ-25"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with headline 'Grow Your Business Online With AKS Digital Media Solutions', subheadline 'We Turn Clicks Into Clients', CTA buttons (Get Free Consultation, Contact Us), digital/corporate background",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us section with agency description, mission statement, and focus on SEO, Social Media Marketing, Lead Generation, and Branding",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services section with 6 cards (SEO Optimization, Social Media Marketing, Google & Meta Ads, Lead Generation, Website Design, Branding Strategy) with icons",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact section with Thoothukudi location, email atchayapandian52@gmail.com, WhatsApp contact button, and CTA 'Let's Grow Your Business Today 🚀'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Client testimonials section with modern card layout",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Clean footer with AKS logo, social media icons, and relevant links",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Modern animations throughout the site, mobile responsive design, blue and gold color theme, stylish AKS logo at top",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Fresher Placement Success Kit",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

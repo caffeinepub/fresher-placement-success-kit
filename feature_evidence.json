@@ -1,0 +1,59 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-redesign-the-herosection-component-with-the-following-exact-content-and-styles-heading-grow-your-business-online-large-bold-white-ffffff-subheading-digital-marketing-agency-in-thoothukudi-medium-weight-gold-f4b400-tagline-turning-clicks-into-clients-italic-or-lighter-weight-white-ffffff-remove-the-previous-long-headline-section-background-must-be-solid-dark-navy-0b1c2d-with-a-subtle-dark-gradient-overlay-cta-buttons-primary-get-free-consultation-with-background-f4b400-and-text-color-0b1c2d-secondary-contact-us-outlined-with-gold-border-f4b400-and-white-text-remove-the-stats-row-or-keep-it-minimal-the-section-must-remain-full-screen-min-100vh-and-fully-responsive",
+      "featureTitle": "Redesign the HeroSection component with the following exact content and styles: heading 'Grow Your Business Online' (large, bold, white #FFFFFF), subheading 'Digital Marketing Agency in Thoothukudi' (medium weight, gold #F4B400), tagline 'Turning Clicks Into Clients' (italic or lighter weight, white #FFFFFF). Remove the previous long headline. Section background must be solid dark navy #0B1C2D with a subtle dark gradient overlay. CTA buttons: primary 'Get Free Consultation' with background #F4B400 and text color #0B1C2D; secondary 'Contact Us' outlined with gold border #F4B400 and white text. Remove the stats row or keep it minimal. The section must remain full-screen (min 100vh) and fully responsive.",
+      "files": [
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-23"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-redesign-the-whychooseussection-component-with-the-following-specifications-section-heading-reads-why-choose-aks-digital-media-solutions-in-white-ffffff-section-background-uses-a-black-gradient-e-g-linear-gradient-from-000000-to-0b1c2d-or-similar-dark-black-gradient-display-exactly-4-benefit-boxes-in-a-2-column-desktop-1-column-mobile-grid-with-the-following-labels-1-result-oriented-strategies-2-affordable-packages-3-local-market-expertise-thoothukudi-focus-4-personalized-support-each-box-should-show-a-gold-checkmark-icon-a-bold-white-title-and-a-short-supporting-description-box-styling-dark-semi-transparent-background-card-gold-f4b400-accent-on-icon-border-highlight-rounded-corners-subtle-box-shadow-remove-the-existing-bottom-cta-strip-or-restyle-it-to-match-the-new-dark-theme",
+      "featureTitle": "Redesign the WhyChooseUsSection component with the following specifications: Section heading reads 'Why Choose AKS Digital Media Solutions?' in white (#FFFFFF). Section background uses a black gradient (e.g., linear-gradient from #000000 to #0B1C2D or similar dark black gradient). Display exactly 4 benefit boxes in a 2-column (desktop) / 1-column (mobile) grid with the following labels: (1) Result-Oriented Strategies, (2) Affordable Packages, (3) Local Market Expertise (Thoothukudi Focus), (4) Personalized Support. Each box should show a gold checkmark icon (✔), a bold white title, and a short supporting description. Box styling: dark semi-transparent background card, gold (#F4B400) accent on icon/border highlight, rounded corners, subtle box shadow. Remove the existing bottom CTA strip or restyle it to match the new dark theme.",
+      "files": [
+        "frontend/src/components/WhyChooseUsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-24"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-generate-a-new-hero-background-image-for-the-aks-digital-media-solutions-website-that-matches-the-dark-navy-and-gold-brand-identity-visible-on-the-uploaded-business-card-the-image-should-depict-a-dark-starfield-cosmic-digital-atmosphere-with-deep-navy-blue-0b1c2d-background-gold-particle-bokeh-effects-and-subtle-digital-marketing-visual-elements-this-image-should-be-used-as-the-hero-section-background",
+      "featureTitle": "Generate a new hero background image for the AKS Digital Media Solutions website that matches the dark navy and gold brand identity visible on the uploaded business card. The image should depict a dark starfield/cosmic digital atmosphere with deep navy blue (#0B1C2D) background, gold particle bokeh effects, and subtle digital marketing visual elements. This image should be used as the hero section background.",
+      "files": [
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-25"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

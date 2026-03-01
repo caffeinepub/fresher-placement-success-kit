@@ -1,0 +1,62 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Redesign Hero Section & Update Why Choose Us with Black Gradient + New Copy",
+  "requirements": [
+    {
+      "id": "REQ-23",
+      "summary": "Redesign HeroSection component with new dark navy background, updated copy ('Grow Your Business Online', 'Digital Marketing Agency in Thoothukudi', 'Turning Clicks Into Clients'), gold/white color scheme, and refined CTA buttons",
+      "acceptanceCriteria": [
+        "Hero heading reads exactly 'Grow Your Business Online' in white (#FFFFFF)",
+        "Subheading reads 'Digital Marketing Agency in Thoothukudi' in gold (#F4B400)",
+        "Tagline reads 'Turning Clicks Into Clients' in white (#FFFFFF)",
+        "Section background is dark navy #0B1C2D",
+        "Primary CTA button background is #F4B400 with text color #0B1C2D",
+        "Secondary CTA button has gold border and white text",
+        "Section is full-screen (min-height: 100vh) and responsive on all breakpoints"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update the HeroSection component to replace the long headline with the new three-tier copy structure: heading 'Grow Your Business Online' (large, bold, white #FFFFFF), subheading 'Digital Marketing Agency in Thoothukudi' (medium weight, gold #F4B400), and tagline 'Turning Clicks Into Clients' (italic/lighter weight, white #FFFFFF). Change the section background from gradient to solid dark navy #0B1C2D with a subtle dark gradient overlay. Update CTA buttons: primary 'Get Free Consultation' with background #F4B400 and text #0B1C2D; secondary 'Contact Us' outlined with gold border #F4B400 and white text. Remove or minimize the stats row. Ensure the section remains full-screen (min 100vh) and fully responsive across all breakpoints. Reference the generated hero background image at frontend/public/assets/generated/aks-hero-bg-dark.dim_1920x1080.png as the background layer beneath the dark overlay."
+        }
+      ]
+    },
+    {
+      "id": "REQ-24",
+      "summary": "Redesign WhyChooseUsSection component with black gradient background, updated heading, and exactly 4 benefit boxes with gold checkmarks and new copy",
+      "acceptanceCriteria": [
+        "Section heading reads 'Why Choose AKS Digital Media Solutions?' in white",
+        "Section background is a black gradient (dark black to dark navy)",
+        "Exactly 4 benefit boxes are displayed: Result-Oriented Strategies, Affordable Packages, Local Market Expertise (Thoothukudi Focus), Personalized Support",
+        "Each box shows a gold checkmark icon, bold white title, and short description",
+        "Layout is 2 columns on desktop and 1 column on mobile",
+        "Cards have dark semi-transparent background with gold accent styling"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhyChooseUsSection.tsx",
+          "operation": "modify",
+          "description": "Update the WhyChooseUsSection component to display the new section heading 'Why Choose AKS Digital Media Solutions?' in white (#FFFFFF). Change the section background to a black gradient (e.g., linear-gradient from #000000 to #0B1C2D). Replace existing benefit boxes with exactly 4 new boxes in a 2-column (desktop) / 1-column (mobile) grid layout: (1) Result-Oriented Strategies, (2) Affordable Packages, (3) Local Market Expertise (Thoothukudi Focus), (4) Personalized Support. Each box must display a gold checkmark icon (✔), a bold white title, and a short supporting description. Apply dark semi-transparent card backgrounds with gold (#F4B400) accent on icon/border highlight, rounded corners, and subtle box shadows. Remove or restyle the existing bottom CTA strip to match the new dark theme."
+        }
+      ]
+    },
+    {
+      "id": "REQ-25",
+      "summary": "Wire the generated dark cosmic starfield hero background image into the HeroSection component",
+      "acceptanceCriteria": [
+        "Hero section renders the new dark navy hero background image",
+        "Image is referenced from frontend/public/assets/generated directory",
+        "Background maintains dark overlay for text readability"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Reference and integrate the generated hero background image frontend/public/assets/generated/aks-hero-bg-dark.dim_1920x1080.png as the background layer for the HeroSection. Ensure the image is loaded as a static asset and positioned correctly with cover sizing. Maintain a dark overlay on top of the image to ensure text readability while allowing the cosmic starfield and gold bokeh effects to be visible. This file operation should be coordinated with REQ-23's modifications to the same component."
+        }
+      ]
+    }
+  ]
+}

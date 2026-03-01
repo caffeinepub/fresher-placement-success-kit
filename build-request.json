@@ -1,0 +1,101 @@
+{
+  "kind": "build_request",
+  "title": "Redesign Hero Section & Update Why Choose Us with Black Gradient + New Copy",
+  "projectName": "AKS Digital Media Solutions",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-23",
+      "text": "Redesign the HeroSection component with the following exact content and styles: heading 'Grow Your Business Online' (large, bold, white #FFFFFF), subheading 'Digital Marketing Agency in Thoothukudi' (medium weight, gold #F4B400), tagline 'Turning Clicks Into Clients' (italic or lighter weight, white #FFFFFF). Remove the previous long headline. Section background must be solid dark navy #0B1C2D with a subtle dark gradient overlay. CTA buttons: primary 'Get Free Consultation' with background #F4B400 and text color #0B1C2D; secondary 'Contact Us' outlined with gold border #F4B400 and white text. Remove the stats row or keep it minimal. The section must remain full-screen (min 100vh) and fully responsive.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Heading: Grow Your Business Online",
+          "Subheading: Digital Marketing Agency in Thoothukudi",
+          "Tagline: Turning Clicks Into Clients",
+          "Background: #0B1C2D (Dark Navy)",
+          "Highlight Gold: #F4B400",
+          "White Text: #FFFFFF",
+          "Button Gold: #F4B400",
+          "Button Text: #0B1C2D"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero heading reads exactly 'Grow Your Business Online' in white (#FFFFFF)",
+        "Subheading reads 'Digital Marketing Agency in Thoothukudi' in gold (#F4B400)",
+        "Tagline reads 'Turning Clicks Into Clients' in white (#FFFFFF)",
+        "Section background is dark navy #0B1C2D",
+        "Primary CTA button background is #F4B400 with text color #0B1C2D",
+        "Secondary CTA button has gold border and white text",
+        "Section is full-screen (min-height: 100vh) and responsive on all breakpoints"
+      ]
+    },
+    {
+      "id": "REQ-24",
+      "text": "Redesign the WhyChooseUsSection component with the following specifications: Section heading reads 'Why Choose AKS Digital Media Solutions?' in white (#FFFFFF). Section background uses a black gradient (e.g., linear-gradient from #000000 to #0B1C2D or similar dark black gradient). Display exactly 4 benefit boxes in a 2-column (desktop) / 1-column (mobile) grid with the following labels: (1) Result-Oriented Strategies, (2) Affordable Packages, (3) Local Market Expertise (Thoothukudi Focus), (4) Personalized Support. Each box should show a gold checkmark icon (✔), a bold white title, and a short supporting description. Box styling: dark semi-transparent background card, gold (#F4B400) accent on icon/border highlight, rounded corners, subtle box shadow. Remove the existing bottom CTA strip or restyle it to match the new dark theme.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Why Choose AKS Digital Media Solutions?",
+          "✔ Result-Oriented Strategies",
+          "✔ Affordable Packages",
+          "✔ Local Market Expertise (Thoothukudi Focus)",
+          "✔ Personalized Support",
+          "Background: Black gradient",
+          "Heading: White",
+          "Highlight: Gold"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section heading reads 'Why Choose AKS Digital Media Solutions?' in white",
+        "Section background is a black gradient (dark black to dark navy)",
+        "Exactly 4 benefit boxes are displayed: Result-Oriented Strategies, Affordable Packages, Local Market Expertise (Thoothukudi Focus), Personalized Support",
+        "Each box shows a gold checkmark icon, bold white title, and short description",
+        "Layout is 2 columns on desktop and 1 column on mobile",
+        "Cards have dark semi-transparent background with gold accent styling"
+      ]
+    },
+    {
+      "id": "REQ-25",
+      "text": "Generate a new hero background image for the AKS Digital Media Solutions website that matches the dark navy and gold brand identity visible on the uploaded business card. The image should depict a dark starfield/cosmic digital atmosphere with deep navy blue (#0B1C2D) background, gold particle bokeh effects, and subtle digital marketing visual elements. This image should be used as the hero section background.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Background: #0B1C2D (Dark Navy)",
+          "Highlight Gold: #F4B400"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section renders the new dark navy hero background image",
+        "Image is referenced from frontend/public/assets/generated directory",
+        "Background maintains dark overlay for text readability"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui/",
+    "Do not modify frontend/src/main.tsx",
+    "All color values must strictly follow the palette: background #0B1C2D, gold #F4B400, white #FFFFFF"
+  ],
+  "nonGoals": [
+    "Adding new backend logic or data persistence",
+    "Changing the About, Services, Testimonials, Contact, or Footer sections",
+    "Adding payment or authentication features",
+    "Modifying the Header component"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Dark cosmic starfield hero background with deep navy blue atmosphere, gold glowing particle bokeh effects scattered across the scene, subtle digital network lines, premium and modern feel matching an elite digital marketing agency brand (aks-hero-bg-dark.dim_1920x1080.png)"
+    ],
+    "edits": []
+  }
+}
